@@ -1,0 +1,27 @@
+.container {
+    max-width: 960px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 5%;
+}
+
+.about-section {
+    margin-top: 20px;
+    text-align: center; /* Center aligns the content */
+}
+
+.about-img {
+    max-width: 400px; /* Adjust based on your preference */
+    display: block; /* Makes the image a block element */
+    margin: 0 auto; /* Auto margins on left and right to center the image */
+    border-radius: 10px;
+}
+
+
+
+h2 {
+    margin-top: 5%;
+
+}

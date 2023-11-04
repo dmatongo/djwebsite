@@ -1,0 +1,53 @@
+.container {
+    max-width: 960px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.service-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service-item {
+    border: 1px solid #e0e0e0;
+    margin-top: 10px;
+    padding: 20px;
+    transition: background-color 0.2s;
+}
+
+.service-item:hover {
+    background-color: #f9f9f9;
+}
+
+.service-item h2 {
+    margin-top: 0;
+}
+
+.service-item p {
+    margin-bottom: 0;
+}
+
+.hero {
+    background-image: url('assets/images/imagetwo.jpeg');  /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.hero-text h1 {
+    font-size: 46px;
+    margin-top: 150%;
+    color: #fff;
+}

@@ -1,0 +1,118 @@
+header, .gallery, .call-to-action {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #000;
+    font-size: 28px;
+    font-weight: 200;
+    margin: 5% 25%;
+}
+
+.gallery .image-container img {
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+.call-to-action h2, p {
+    margin: 0 25%;
+}
+
+.call-to-action {
+    background-color: #f5f5f5;
+}
+
+section h2 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 200;
+    margin-top: 25px;
+}
+
+section p {
+    font-size: 16px;
+    margin: 0 250px;
+}
+
+.call-to-action button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 25px;
+}
+
+.call-to-action button:hover {
+    background-color: #333;  /* Darkened color for hover effect */
+}
+
+.hero {
+    background-image: url('assets/webphotos/alvaro-cvg-mW8IZdX7n8E-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.hero-text h1 {
+    font-size: 46px;
+    margin-top: 150%;
+    color: #fff;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .gallery .image-container img {
+        width: 70%;
+        height: auto;
+    }
+    section p {
+        margin: 0 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    header h1, .call-to-action h2, p {
+        margin: 5% 5%;
+    }
+    .gallery .image-container img {
+        width: 90%;
+    }
+    section h2 {
+        font-size: 28px;
+    }
+    section p {
+        margin: 0 50px;
+    }
+    .call-to-action button {
+        padding: 10px 20px;
+    }
+    .hero {
+        height: 300px;
+    }
+    .hero-text h1 {
+        font-size: 32px;
+        margin-top: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    section p {
+        margin: 0 20px;
+    }
+    .hero-text h1 {
+        font-size: 28px;
+        margin-top: 50%;
+    }
+}
+
+

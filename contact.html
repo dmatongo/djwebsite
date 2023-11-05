@@ -61,7 +61,7 @@
             <a href="contact.html">Contact Us</a>
         </div>
     </div>
-    <div class="logo">
+    <div class="mobilelogo">
         <a href="index.html">
           <img src="assets/logo/7CECCAD1-DB55-469D-AD21-5DDC94B2543F_4_5005_c 2.jpeg" alt="Logo">
         </a>
@@ -94,38 +94,40 @@
 <!--/.welcome-hero-->
 
 <!--Contact form-->
-<form action="sendMail.php" method="post">
-    <h2>SEND US A MESSAGE</h2>
-    <p>If you're interested in hearing more about the way we work, have a project, or are interested in providing you any related info, we'd love to hear from you.</p>
+<form action="https://formsubmit.co/deon.matongo@outlook.com" method="POST">
+  <h2>SEND US A MESSAGE</h2>
+  <p>If you're interested in hearing more about the way we work, have a project, or are interested in providing you any related info, we'd love to hear from you.</p>
 
-    <label for="name">Your name</label>
-    <input type="text" id="name" name="name" required>
+  <label for="name">Your name</label>
+  <input type="text" id="name" name="name" required>
 
-    <label for="name">Phone Number</label>
-    <input type="text" id="name" name="name" required>
+  <label for="phone">Phone Number</label>
+  <input type="text" id="phone" name="phone" required>
 
-    <label for="email">Your email</label>
-    <input type="email" id="email" name="email" required>
+  <label for="email">Your email</label>
+  <input type="email" id="email" name="email" required>
 
-    <label for="subject">Type of Event</label>
-    <input type="text" id="subject" name="subject">
+  <label for="subject">Type of Event</label>
+  <input type="text" id="subject" name="subject">
 
-    <label for="discovery">How did you discover us?</label>
-    <select id="discovery" name="discovery">
-        <option value="google">Google</option>
-        <option value="google">Facebook</option>
-        <option value="google">Instagram</option>
-        <option value="google">Colleague/Friend</option>
-        <!-- Add more options as needed -->
-    </select>
+  <label for="discovery">How did you discover us?</label>
+  <select id="discovery" name="discovery">
+      <option value="google">Google</option>
+      <option value="facebook">Facebook</option>
+      <option value="instagram">Instagram</option>
+      <option value="friend">Colleague/Friend</option>
+      <!-- Add more options as needed -->
+  </select>
 
-    <label for="location">Location</label>
-    <input type="text" id="location" name="location">
+  <label for="location">Location</label>
+  <input type="text" id="location" name="location">
 
-    <label for="message">Your message</label>
-    <textarea id="message" name="message"></textarea>
+  <label for="message">Your message</label>
+  <textarea id="message" name="message"></textarea>
 
-    <button type="submit">Submit</button>
+  <button type="submit">Submit</button>
+  <input type="hidden" name="_next" value="https://yoursite.com/thanks.html">
+  <input type="hidden" name="_captcha" value="false">
 </form>
 <!--Contact form-->
 
@@ -162,5 +164,7 @@
 		</footer>
 		
 		<!--footer-copyright end-->
+
+ 
 </body>
 </html>

@@ -18,7 +18,16 @@
     margin: 0 auto; /* Auto margins on left and right to center the image */
     border-radius: 10px;
 }
-
+.hero {
+    background-image: url('assets/images/beautiful-shot-live-concert-performance-with-yellow-light-show-big-crowd-cheering.jpg');  /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
 
 
 h2 {

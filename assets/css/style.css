@@ -295,9 +295,14 @@ color: black;
     }
   }
   @media (min-width: 769px) {
-    .logo {
+    .mobilelogo {
       display: none;
+    
     }
+  }
+  .mobilelogo img{
+    max-width: 100%;
+    height: 60px;
   }
   .menu {
     display: flex;
@@ -322,6 +327,7 @@ color: black;
       top: 15px;   /* reduce this value */
     }
   }
+
 /*-------------------------------------
           Welcome-hero
 --------------------------------------*/
@@ -330,7 +336,7 @@ color: black;
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(/assets/webphotos/alvaro-cvg-mW8IZdX7n8E-unsplash.jpg)no-repeat;
+    background:url(/assets/images/beautiful-shot-live-concert-performance-with-yellow-light-show-big-crowd-cheering.jpg)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -363,7 +369,7 @@ color: black;
 @media only screen and (max-width: 480px) {
     .welcome-hero {
         height: 300px; /* Further reduced height for very small screens */
-        background-image: url(/assets/webphotos/alvaro-cvg-mW8IZdX7n8E-unsplash.jpg); /* Optional: Load a smaller background image for mobile */
+        background-image: url(/assets/images/beautiful-shot-live-concert-performance-with-yellow-light-show-big-crowd-cheering.jpg); /* Optional: Load a smaller background image for mobile */
         background-position: center center; /* Adjust background position if necessary */
     }
 }

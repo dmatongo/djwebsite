@@ -36,7 +36,7 @@ h1, h2 {
 }
 
 .hero {
-    background-image: url('assets/images/imagetwo.jpeg');  /* Replace with your image path */
+    background-image: url('assets/images/IMG_1829.jpg');  /* Replace with your image path */
     background-size: cover;
     background-position: center;
     height: 550px;
@@ -47,7 +47,14 @@ h1, h2 {
 }
 
 .hero-text h1 {
-    font-size: 46px;
+    font-size: 4vw; /* This will set the font size to 4% of the viewport width */
     margin-top: 150%;
     color: #fff;
+}
+
+/* This media query will apply when the viewport width is 600px or less */
+@media (max-width: 600px) {
+    .hero-text h1 {
+        font-size: 24px; /* This will set the font size to a fixed 24px */
+    }
 }

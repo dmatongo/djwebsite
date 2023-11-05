@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: row;
     gap: 80px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 40%;
+    margin-right: 0%;
     margin-bottom: 5%;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .hero {
-    background-image: url('assets/webphotos/alvaro-cvg-mW8IZdX7n8E-unsplash.jpg');  /* Replace with your image path */
+    background-image: url('assets/images/dj-playing-music-mixer.jpg');  /* Replace with your image path */
     background-size: cover;
     background-position: center;
     height: 550px;

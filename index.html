@@ -80,7 +80,7 @@
 			</div>
 		</div>
 
-		<div class="logo">
+		<div class="mobilelogo">
 			<a href="index.html">
 			  <img src="assets/logo/7CECCAD1-DB55-469D-AD21-5DDC94B2543F_4_5005_c 2.jpeg" alt="Logo">
 			</a>
@@ -171,9 +171,8 @@
 						</div>
 						<div class="col-sm-offset-1 col-sm-5">
 							<div class="single-about-img">
-								<img src="assets/webphotos/blake-cheek-R7sKX3PXZ1A-unsplash.jpg" alt="profile_image">
+								<img src="assets/images/portrait-young-man-professional-dj-making-sounds-with-mixer-isolated-gradient-red-yellow-background-neon.jpg" alt="profile_image">
 								
-
 							</div>
 
 						</div>
@@ -247,30 +246,32 @@
 				</div>
 		
 				<!-- Contact Form -->
-				<form action="sendMail.php" method="post" class="contact-form">
+				<form id="myForm" class="contact-form" action="https://formsubmit.co/deon.matongo@outlook.com" method="POST">
 					<div class="input-group">
-						<input type="text" name="fullname" placeholder="Full Name" required>
-						<input type="email" name="email" placeholder="Email" required>
-						<input type="tel" name="phone" placeholder="Phone Number" required>
+						<input type="text" id="fullname" name="fullname" placeholder="Full Name" required>
+						<input type="email" id="email" name="email" placeholder="Email" required>
+						<input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
 					</div>
-					<textarea name="message" placeholder="Message" required></textarea>
-		
+					<textarea id="message" name="message" placeholder="Message" required></textarea>
+				
 					<div class="contact-pref-container">
 						<p>How can we reach you?</p>
 						<label>
-							<input type="checkbox" name="contact_preference" value="phone"> Via Phone
+							<input type="checkbox" id="contact_preference_phone" name="contact_preference" value="phone"> Via Phone
 						</label>
 						<label>
-							<input type="checkbox" name="contact_preference" value="email"> Via Email
+							<input type="checkbox" id="contact_preference_email" name="contact_preference" value="email"> Via Email
 						</label>
 					</div>
-		
+				
 					<p1 class="disclaimer">
 						You may withdraw your consent at any time.
 						<p>Response time 1-2 Days </p>
 					</p1>
-		
+				
 					<button type="submit">Submit</button>
+					<input type="hidden" name="_next" value="https://yoursite.com/thanks.html">
+					<input type="hidden" name="_captcha" value="false">
 				</form>
 			</div>
 		
@@ -358,6 +359,7 @@
 		
         
         <!--Custom JS-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
 					

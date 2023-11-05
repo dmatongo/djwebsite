@@ -1014,11 +1014,15 @@ iframe {
         flex-direction: column;
     }
 
-    .contact-info,
+    
     .contact-form {
         width: 100%;
     }
+    .contact-info{
+        width:100%;
+        color: white;
 
+    }
     .contact-form textarea {
         width: 100%; /* Full width */
     }

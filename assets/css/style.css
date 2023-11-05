@@ -870,6 +870,7 @@ iframe {
 /* Contact Info */
 .contact-info {
     width: 40%;
+    color: white;
 }
 
 .contact-info p {

@@ -369,7 +369,7 @@ color: black;
 @media only screen and (max-width: 480px) {
     .welcome-hero {
         height: 300px; /* Further reduced height for very small screens */
-        background-image: url(/assets/images/beautiful-shot-live-concert-performance-with-yellow-light-show-big-crowd-cheering.jpg); /* Optional: Load a smaller background image for mobile */
+        background-image: url(/assets/webphotos/alvaro-cvg-mW8IZdX7n8E-unsplash.jpg); /* Optional: Load a smaller background image for mobile */
         background-position: center center; /* Adjust background position if necessary */
     }
 }
@@ -608,6 +608,32 @@ color: black;
         }
     
         .about h2 {
+            font-size: 22px;
+        }
+    
+        .single-about-txt h3,
+        .single-about-txt h4,
+        .single-about-txt p,
+        .single-about-txt ul {
+            font-size: 16px;
+        }
+    
+        .single-about-add-info button {
+            padding: 8px 15px;
+            font-size: 16px;
+        }
+    
+        .single-about-add-info h3 {
+            font-size: 16px;
+        }
+    }
+    
+    @media only screen and (max-width: 480px) {
+        .about {
+            padding: 20px 0 30px;
+        }
+    
+        .about h2 {
             font-size: 20px;
         }
     
@@ -619,38 +645,12 @@ color: black;
         }
     
         .single-about-add-info button {
-            padding: 8px 15px;
-            font-size: 14px;
-        }
-    
-        .single-about-add-info h3 {
-            font-size: 14px;
-        }
-    }
-    
-    @media only screen and (max-width: 480px) {
-        .about {
-            padding: 20px 0 30px;
-        }
-    
-        .about h2 {
-            font-size: 18px;
-        }
-    
-        .single-about-txt h3,
-        .single-about-txt h4,
-        .single-about-txt p,
-        .single-about-txt ul {
-            font-size: 12px;
-        }
-    
-        .single-about-add-info button {
             padding: 6px 10px;
-            font-size: 12px;
+            font-size: 14px;
         }
     
         .single-about-add-info h3 {
-            font-size: 12px;
+            font-size: 14px;
         }
     }
     

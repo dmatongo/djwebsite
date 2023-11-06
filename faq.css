@@ -1,0 +1,62 @@
+.faq-section{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.faq-item{
+    margin: 20px 0;
+}
+
+.faq-item h3{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.faq-item p{
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.hero {
+    background-image: url('assets/images/beautiful-shot-live-concert-performance-with-yellow-light-show-big-crowd-cheering.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.hero-text h1 {
+    font-size: 46px;
+    margin-top: 150%;
+    color: #fff;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .faq-section {
+        width: 90%;
+    }
+
+    .faq-item h3 {
+        font-size: 18px;
+    }
+
+    .faq-item p {
+        font-size: 14px;
+    }
+
+    .hero {
+        height: 300px;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+        margin-top: 100%;
+    }
+}

@@ -36,19 +36,32 @@ h1, h2 {
 }
 
 .hero {
-    background-image: url('assets/images/IMG_1829.jpg');  /* Replace with your image path */
+    background-image: url('assets/images/PNG\ image.png');
+    height: 100vh; /* This will cover the full viewport height */
     background-size: cover;
     background-position: center;
-    height: 550px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
+}
+
+.desktophero {
+    display: none;
+}
+
+/* CSS for Mobile */
+
+@media screen and (max-width: 768px) { /* This can be adjusted based on the breakpoint you want to use */
+    .hero {
+        background-image: url('assets/images/IMG_1829.jpg');
+    }
+
+    .desktophero {
+        background-image: url('mobile-image.jpg');
+        display: block;
+    }
 }
 
 .hero-text h1 {
     font-size: 4vw; /* This will set the font size to 4% of the viewport width */
-    margin-top: 150%;
+    margin-top: 0;
     color: #fff;
 }
 

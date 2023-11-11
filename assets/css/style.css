@@ -1061,7 +1061,7 @@ iframe {
 }
 
 .dj-logo img {
-    max-width: 150px; /* Restrict width of each logo */
+    max-width: 200px; /* Restrict width of each logo */
     transition: transform 0.3s; /* Smooth transition for hover effect */
 }
 
